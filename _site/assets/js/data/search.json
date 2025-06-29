@@ -1,0 +1,12 @@
+[
+  {
+    "title": "VL Odori",
+    "url": "/posts/Haze/",
+    "categories": "Vulnlab",
+    "tags": "",
+    "date": "2025-06-28 00:00:00 +0300",
+    "content": "dori is a medium-difficulty machine on Vulnlab that involves gaining access to a Bitlocker encrypted disk image, in order to retrieve DPAPI protected credentials. Furthermore we will use SFTP to by..."
+  }
+  
+]
+
