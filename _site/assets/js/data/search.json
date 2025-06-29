@@ -1,11 +1,11 @@
 [
   {
-    "title": "VL Odori",
+    "title": "Haze (Hard)",
     "url": "/posts/Haze/",
-    "categories": "Vulnlab",
+    "categories": "HackTheBox",
     "tags": "",
-    "date": "2025-06-28 00:00:00 +0300",
-    "content": "dori is a medium-difficulty machine on Vulnlab that involves gaining access to a Bitlocker encrypted disk image, in order to retrieve DPAPI protected credentials. Furthermore we will use SFTP to by..."
+    "date": "2025-06-29 00:00:00 +0300",
+    "content": "Haze is Hard rated machine which involves multiply step for exploitation it initial foothold is through a splunk instance that has a cve allowing local file read after getting credentials we will h..."
   }
   
 ]

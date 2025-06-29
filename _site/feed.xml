@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Blog</title>
   <subtitle>CTF, HackTheBox, TryHackMe, Red Teaming</subtitle>
-  <updated>2025-06-28T15:38:19+03:00</updated>
+  <updated>2025-06-29T03:24:37+03:00</updated>
   <author>
     <name>spect3r</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>VL Odori</title>
-    <link href="http://localhost:4000/posts/Haze/" rel="alternate" type="text/html" title="VL Odori" />
-    <published>2025-06-28T00:00:00+03:00</published>
+    <title>Haze (Hard)</title>
+    <link href="http://localhost:4000/posts/Haze/" rel="alternate" type="text/html" title="Haze (Hard)" />
+    <published>2025-06-29T00:00:00+03:00</published>
   
-    <updated>2025-06-28T00:00:00+03:00</updated>
+    <updated>2025-06-29T00:00:00+03:00</updated>
   
     <id>http://localhost:4000/posts/Haze/</id>
     <content type="text/html" src="http://localhost:4000/posts/Haze/" />
@@ -34,11 +34,11 @@
 
   
     
-    <category term="Vulnlab" />
+    <category term="HackTheBox" />
     
   
 
-  <summary>dori is a medium-difficulty machine on Vulnlab that involves gaining access to a Bitlocker encrypted disk image, in order to retrieve DPAPI protected credentials. Furthermore we will use SFTP to bypass login restrictions and manipulate a python cache file to gain root privileges.  Foothold  As always, we scan for open ports:  Host is up (0.19s latency). Not shown: 997 closed ports PORT    STATE...</summary>
+  <summary>Haze is Hard rated machine which involves multiply step for exploitation it initial foothold is through a splunk instance that has a cve allowing local file read after getting credentials we will have have access  Recon  port scan  # Nmap 7.95 scan initiated Sat Jun 28 16:09:36 2025 as: /usr/lib/nmap/nmap --privileged -vv -sC -sV -oN nmap 10.10.11.61 Increasing send delay for 10.10.11.61 from 0...</summary>
 
   </entry>
 
