@@ -5,7 +5,7 @@ image:
   path: /assets/posts/CyCTF-Luxor/preview.png
 layout: post
 stags:
-title: FahemSec CTF
+title: CyCTF Luxor
 ---
 
 # Nova Shop
